@@ -1,0 +1,15 @@
+.product {
+    background-color: var(--background-dark);
+    border-radius: 15px;
+    margin-bottom: 2em;
+}
+
+.product .card-img-top {
+    border-radius: 15px 15px 0 0;
+}
+
+.product .btn {
+    background-color: var(--primary-colour);
+    border: none;
+    width: 100%;
+}

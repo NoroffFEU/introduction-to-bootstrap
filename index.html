@@ -12,79 +12,81 @@
         />
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&family=Julius+Sans+One&display=swap" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet" />
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <div class="wrapper">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Bootstrap</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="products.html">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-interval="false" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner embed-responsive embed-responsive-21by9">
+                    <div class="carousel-item active embed-responsive-item" style="background-image: url(images/slider-1.jpg);"></div>
+                    <div class="carousel-item embed-responsive-item" style="background-image: url(images/slider-2.jpg);"></div>
+                    <div class="carousel-item embed-responsive-item" style="background-image: url(images/slider-3.jpg);"></div>
+                </div>
             </div>
-        </nav>
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-interval="false" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner embed-responsive embed-responsive-21by9">
-                <div class="carousel-item active embed-responsive-item" style="background-image: url(images/slider-1.jpg);"></div>
-                <div class="carousel-item embed-responsive-item" style="background-image: url(images/slider-2.jpg);"></div>
-                <div class="carousel-item embed-responsive-item" style="background-image: url(images/slider-3.jpg);"></div>
+            <div class="container">
+                <h1 class="home">SERIOUSLY, BUY MORE THINGS</h1>
+                <div class="row">
+                    <div class="col-md home-block">
+                        <h3>Heading</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                        <a href="products.html" class="btn btn-primary">View more</a>
+                    </div>
+                    <div class="col-md home-block">
+                        <h3>Heading</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean volutpat efficitur eleifend. Etiam sit amet turpis dolor. Maecenas facilisis semper est sit amet facilisis.
+                            Aliquam turpis enim, euismod in tincidunt non, dapibus quis dolor.
+                        </p>
+                        <a href="products.html" class="btn btn-primary">View more</a>
+                    </div>
+                    <div class="col-md home-block">
+                        <h3>Heading</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean volutpat efficitur eleifend. Etiam sit amet turpis dolor. Maecenas facilisis semper est sit amet facilisis.
+                            Aliquam turpis enim, euismod in tincidunt non, dapibus quis dolor.
+                        </p>
+                        <a href="products.html" class="btn btn-primary">View more</a>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md">
-                    <h3>Heading</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean volutpat efficitur eleifend. Etiam sit amet turpis dolor. Maecenas facilisis semper est sit amet facilisis.
-                        Aliquam turpis enim, euismod in tincidunt non, dapibus quis dolor.
-                    </p>
-                    <a href="products.html" class="btn btn-primary">View more</a>
-                </div>
-                <div class="col-md">
-                    <h3>Heading</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean volutpat efficitur eleifend. Etiam sit amet turpis dolor. Maecenas facilisis semper est sit amet facilisis.
-                        Aliquam turpis enim, euismod in tincidunt non, dapibus quis dolor.
-                    </p>
-                    <a href="products.html" class="btn btn-primary">View more</a>
-                </div>
-                <div class="col-md">
-                    <h3>Heading</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean volutpat efficitur eleifend. Etiam sit amet turpis dolor. Maecenas facilisis semper est sit amet facilisis.
-                        Aliquam turpis enim, euismod in tincidunt non, dapibus quis dolor.
-                    </p>
-                    <a href="products.html" class="btn btn-primary">View more</a>
-                </div>
-            </div>
-        </div>
-
         <footer>
             <div><i class="fa fa-twitter"></i> <i class="fa fa-vimeo"></i></div>
             <div>Copyright 2020</div>

@@ -1,0 +1,58 @@
+.carousel-item {
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+
+.carousel-inner {
+    max-height: 600px;
+}
+
+.home-block {
+    margin: 15px;
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+    background-color: var(--background-dark);
+    display: flex;
+    flex-direction: column;
+}
+
+.home-block h3 {
+    font-size: 1.2rem;
+    color: var(--primary-colour);
+}
+
+.home-block p {
+    font-size: 0.9rem;
+    flex: 1;
+}
+
+.home-block .btn {
+    font-size: 0.8rem;
+    background: var(--background-dark);
+    border: none;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.home-block .btn:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10px;
+    height: 100%;
+    background: var(--primary-colour);
+}
+
+@media (min-width: 992px) {
+    .home-block .btn {
+        width: 50%;
+    }
+}
